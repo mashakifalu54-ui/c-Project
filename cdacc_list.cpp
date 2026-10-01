@@ -5,13 +5,14 @@ using namespace std;
 
 int main()
 {
-list< string> days= {
-"Tuesday",
-"Wednesday",
-"Friday" ,
-"Sunday"
+list< string> days;
 
-};
+days.push_back("Tuesday");
+days.push_back("Wednesday");
+days.push_back("Thursday");
+days.push_back("Friday");
+days.push_back("Sunday");
+
 days.push_front("Monday");
 cout<<"Ater adding Monday: "<<endl;
 for (string day: days)
